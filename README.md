@@ -126,7 +126,7 @@ v0,1,0 = u∗0,1,0−ΔtΔxρ(3.375+3.375) = 0.225
 v1,1,0 = u∗1,1,0−ΔtΔxρ(1.125+1.125) = −0.225
 ```
 
-Note that from our advection step, `u∗0,1,0=0.9` but all other velocities are 0. Also, we only compute new velocities for our interior faces because the boundary faces correspond to stationary objects and thus have velocity 0. The resulting velocity field swirls around like a pinwheel in the interior of the grid. The contents of mU = {0,-0.225,0,0,0.225,0}, mV = {0,0,0.225,-0.225,0,0}, and mW = {0,0,0,0,0,0,0}. 
+Note that from our advection step, `u∗0,1,0 = 0.9` but all other velocities are 0. Also, we only compute new velocities for our interior faces because the boundary faces correspond to stationary objects and thus have velocity 0. The resulting velocity field swirls around like a pinwheel in the interior of the grid. The contents of mU = {0,-0.225,0,0,0.225,0}, mV = {0,0,0.225,-0.225,0,0}, and mW = {0,0,0,0,0,0,0}. 
 
 _Notes:_
 * Check that the velocity field after this step is divergence-free by computing the divergence at each cell.
