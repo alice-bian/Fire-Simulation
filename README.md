@@ -99,7 +99,7 @@ It's possible to derive similar expressions for fluid cells next to a boundary o
 
 Finally, we can derive an equation for every fluid cell in the grid. These can be combined into a large system of equations
 
-`Ap=b`
+`Ap = b`
 
 Each of the rows of A represents the equation for a fluid cell. If we have 4 cells, A is a 4x4 matrix. The 4x1 column vector p is the pressure for each cell (our unknowns). The 1x4 column vector b is a function of the current divergence in each cell. Going back to our concrete example, our system of equations would look like:
 
