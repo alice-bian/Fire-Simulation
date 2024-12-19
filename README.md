@@ -4,6 +4,7 @@ Simulation of controllable, interactive fire implemented based on computational 
 Link to research paper: https://www.researchgate.net/publication/301721655_Interactive_Control_of_Fire_Simulation_based_on_Computational_Fluid_Dynamics
 
 <br />
+
 **Overview** <br />
 The most important milestone for fluid simulation is creating a stable, divergence-free velocity field. Once the velocity field is stable, it is simple to advect arbitrary quantities within the grid, such as smoke density, heat, or color. By divergence-free, I mean:
 •	the volume of each cell remains constant each time step
