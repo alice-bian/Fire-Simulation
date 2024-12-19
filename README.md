@@ -79,7 +79,7 @@ where each of the derivatives above can be easily computed using finite differen
 * `dvdt = vi,j+12,k−vi,j−12, kΔy`
 * `dwdt = wi,j,k+12−wi,j, k−12Δz`
 
-We will assume that our grid cells are square (e.g. `Δx=Δy=ΔzΔx=Δy=Δz`). Now, we can write our divergence equation in terms of our current velocity field. For example, for a fluid cell surrounded by fluid cells, we would get
+We will assume that our grid cells are square (e.g. `Δx=Δy=Δz`). Now, we can write our divergence equation in terms of our current velocity field. For example, for a fluid cell surrounded by fluid cells, we would get
 
 ```
 1Δx[ui+12,j,k−Δtρ(pi+1,j,k−pi,j,kΔx)−(ui−12,j,k−Δtρ(pi,j,k−pi−1,j,kΔx))+vi,j+12,k−Δtρ(pi,j+1,k−pi,j,kΔx)−(vi,j−12,k−Δtρ(pi,j,k−pi,j−1,kΔx))+wi,j,k+12−Δtρ(pi,j,k+1−pi,j,kΔx)−(ui,j,k−12−Δtρ(pi,j,k−pi,j,k−1Δx))] = 0
