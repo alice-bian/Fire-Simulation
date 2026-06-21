@@ -161,9 +161,10 @@ void SmokeSim::step()
 }
 ```
 
-**Final Demo** <br />
 <br />
-https://github.com/user-attachments/assets/e7344275-5771-459b-a2fe-b04f761bb58c
+**Final Demo** <br />
+<video src="https://github.com/user-attachments/assets/ef0655c3-2970-4cc6-acab-ffe5dd34d4f8" controls width="100%"></video>
+
 
 
 
