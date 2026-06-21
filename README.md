@@ -160,3 +160,11 @@ void SmokeSim::step()
    mGrid.advectDensity(dt);
 }
 ```
+
+**Final Demo** <br />
+<br />
+https://github.com/user-attachments/assets/e7344275-5771-459b-a2fe-b04f761bb58c
+
+
+
+
